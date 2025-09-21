@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ffe6f2, #fff5fa);
+    color: #4a4a4a;
+    text-align: center;
+}
+
+/* Títulos */
+h1, h2 {
+    color: #ff66a3;
+    margin: 20px 0;
+    text-shadow: 2px 2px 5px rgba(255, 105, 180, 0.2);
+}
+
+/*  Grid de productos  */
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    padding: 30px;
+}
+
+/* Tarjeta de producto */
+.producto {
+    background: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 5px 15px rgba(255, 105, 180, 0.2);
+    transition: transform 0.3s ease;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/*  Imagen de producto */
+.producto img {
+    width: 200px;
+    height: 200px;
+  
+    border-radius: 10px;
+    margin: 0 auto 10px auto; /* centra la imagen */
+}
+
+/* Nombre del producto  */
+.nombre {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Precios con animación */
+.precio {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff3385;
+    background: #ffe6f2;
+    padding: 8px 12px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px 0;
+    animation: brillar 2s infinite;
+}
+
+@keyframes brillar {
+    0% { box-shadow: 0 0 5px #ff80bf; }
+    50% { box-shadow: 0 0 15px #ffb3d9; }
+    100% { box-shadow: 0 0 5px #ff80bf; }
+}
+
+/* Botones con animación */
+.boton {
+    background: linear-gradient(135deg, #ff66a3, #ff99cc);
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 10px rgba(255, 105, 180, 0.3);
+    margin-top: auto;
+}
+
+
+/* Menú categorías */
+.menucategorias a {
+    text-decoration: none;
+    color: #ff3385;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background: #ffe6f2;
+    transition: all 0.3s ease;
+}
+
+.menucategorias a:hover {
+    background: #ff99cc;
+    color: white;
+    transform: scale(1.1);
+}
+.principal{
+    
+    text-decoration: none;
+    color: #ff3385;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background: #ffe6f2;
+    transition: all 0.3s ease;
+}
+
+.contactos{
+
+    text-decoration: none;
+    color: #ff3385;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background: #ffe6f2;
+    transition: all 0.3s ease;
+}
