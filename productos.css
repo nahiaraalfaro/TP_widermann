@@ -53,6 +53,11 @@ h1, h2 {
     overflow: hidden;
 }
 
+.info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 /* Precios con animación */
 .precio {
     font-size: 20px;
