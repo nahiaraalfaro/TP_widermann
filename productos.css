@@ -19,20 +19,22 @@ h1, h2 {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 25px;
     padding: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Tarjeta de producto */
 .producto {
     background: #fff;
+    margin: 20px;
     border-radius: 15px;
-    padding: 15px;
+    padding-bottom: 20px;
+    padding-top: 100px;
     box-shadow: 0 5px 15px rgba(255, 105, 180, 0.2);
     transition: transform 0.3s ease;
-    text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 
@@ -41,8 +43,27 @@ h1, h2 {
     max-width: 200px;
     max-height: 200px;
     border-radius: 10px;
-    margin: 0 auto 10px auto; /* centra la imagen */
-    object-fit: contain;
+    margin: -85px 40px 0px 16px; /* centra la imagen */
+    object-fit:contain;
+    position: absolute;
+    transition: transform .3s ease;
+    
+}
+
+.atras {
+    opacity: 0;
+}
+
+.producto:atras {
+    transform: translateY(-5px);
+}
+
+.producto:hover .atras {
+    opacity: 1;
+}
+
+.producto:hover .adelante {
+    opacity: 0;
 }
 
 /* Nombre del producto  */
