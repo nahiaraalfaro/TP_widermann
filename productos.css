@@ -35,8 +35,8 @@ h1, h2 {
     transition: transform 0.3s ease;
     display: flex;
     flex-direction: column;
+    
 }
-
 
 /*  Imagen de producto */
 .producto img {
