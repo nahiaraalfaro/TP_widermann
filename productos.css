@@ -6,6 +6,17 @@ body {
     text-align: center;
 }
 
+header {
+    display: flex;
+    height: 70px;
+    background-color: #0a1931;
+}
+
+.categorias {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Títulos */
 h1, h2 {
     color: #ff66a3;
