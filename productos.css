@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(135deg, #4a7fa7, #4a7fa7);
-    color: #f6fafd;
+    color: #0a1931;
     text-align: center;
 }
 
@@ -10,11 +10,23 @@ header {
     display: flex;
     height: 70px;
     background-color: #1a3d63;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
 }
 
 .categorias {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo-img {
+    padding-right: 10px;
 }
 
 /* Títulos */
