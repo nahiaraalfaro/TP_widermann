@@ -131,7 +131,7 @@ h1, h2 {
     border-radius: 30px;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 5px 10px rgba(255, 105, 180, 0.3);
+    box-shadow: 0 5px 10px #1a3d63(255, 105, 180, 0.3);
     margin-top: auto;
 }
 
@@ -139,40 +139,40 @@ h1, h2 {
 /* Menú categorías */
 .menucategorias a {
     text-decoration: none;
-    color: #ff3385;
+    color: #f6fafd;
     font-weight: bold;
     margin: 0 10px;
     padding: 8px 15px;
     border-radius: 20px;
-    background: #ffe6f2;
+    background: #4a7fa7;
     transition: all 0.3s ease;
 }
 
 .menucategorias a:hover {
-    background: #ff99cc;
-    color: white;
+    background: #f6fafd;
+    color: #4a7fa7;
     transform: scale(1.1);
 }
 .principal{
     
     text-decoration: none;
-    color: #ff3385;
+    color: #f6fafd;
     font-weight: bold;
     margin: 0 10px;
     padding: 8px 15px;
     border-radius: 20px;
-    background: #ffe6f2;
+    background: #4a7fa7;
     transition: all 0.3s ease;
 }
 
 .contactos{
 
     text-decoration: none;
-    color: #ff3385;
+    color: #f6fafd;
     font-weight: bold;
     margin: 0 10px;
     padding: 8px 15px;
     border-radius: 20px;
-    background: #ffe6f2;
+    background: #4a7fa7;
     transition: all 0.3s ease;
 }
