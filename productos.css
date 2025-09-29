@@ -106,12 +106,12 @@ h1, h2 {
     object-fit:contain;
     position: absolute;
     transition: transform .3s ease;
-    
+    transition: opacity .5s linear;
 }
 
 .atras {
     opacity: 0;
-    
+    transition: opacity .5s linear;
 }
 
 .producto:atras {
@@ -120,12 +120,12 @@ h1, h2 {
 
 .producto:hover .atras {
     opacity: 1;
-    
+    transition: opacity .5s linear;
 }
 
 .producto:hover .adelante {
     opacity: 0;
-    
+    transition: opacity .5s linear;
 }
 
 /* Nombre del producto  */
