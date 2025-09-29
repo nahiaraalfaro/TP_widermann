@@ -16,3 +16,13 @@
       background-color: #0A1931;
       color: rgb(0, 0, 0);
     }
+     nav .logo {  
+      font-size: 1.5em;
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      background-color: #1A3D63;
+      padding: 10px 10px;
+      border-radius: 80px;
+      gap: 40px;
+    } 
