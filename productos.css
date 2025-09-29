@@ -51,17 +51,24 @@ h1, h2 {
     height: 10%;
     position: absolute;
     inset: 10%;
-    place-content: center;
+    background-color: #b3cfe5;
+    place-content: left;
     gap: 30px;
     padding: 20px;
-    margin: 12px 70%;
-    background-color: black;
+    margin: 31px 70% 0 70%;
+    display: grid;
+    transition:  opacity .5s linear;
+    opacity: 0;
+}
+
+.input{
     display: none;
 }
 
 .menu:has(.input:checked){
     .links{
-        display: grid;
+        opacity: 1;
+        
     }
 }
 
@@ -104,6 +111,7 @@ h1, h2 {
 
 .atras {
     opacity: 0;
+    
 }
 
 .producto:atras {
@@ -112,10 +120,12 @@ h1, h2 {
 
 .producto:hover .atras {
     opacity: 1;
+    
 }
 
 .producto:hover .adelante {
     opacity: 0;
+    
 }
 
 /* Nombre del producto  */
@@ -191,6 +201,7 @@ h1, h2 {
     border-radius: 20px;
     background: #4a7fa7;
     transition: all 0.3s ease;
+   
 }
 
 .contactos{
@@ -202,4 +213,5 @@ h1, h2 {
     border-radius: 20px;
     background: #4a7fa7;
     transition: all 0.3s ease;
+    
 }
