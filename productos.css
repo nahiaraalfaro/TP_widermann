@@ -44,6 +44,7 @@ h1, h2 {
     width: 60px;
     height: 60px;
     cursor: pointer;
+   
 }
 
 .links{
@@ -53,11 +54,11 @@ h1, h2 {
     inset: 10%;
     background-color: #b3cfe5;
     place-content: left;
-    gap: 30px;
+    gap:30px;
     padding: 20px;
-    margin: 31px 70% 0 70%;
+    margin: 14px 70% 0 70%;
     display: grid;
-    transition:  opacity .5s linear;
+    transition: opacity .5s linear;
     opacity: 0;
 }
 
@@ -68,8 +69,8 @@ h1, h2 {
 .menu:has(.input:checked){
     .links{
         opacity: 1;
-        
     }
+    
 }
 
 /*  Grid de productos  */
@@ -193,7 +194,6 @@ h1, h2 {
     transform: scale(1.1);
 }
 .principal{
-    
     color: #f6fafd;
     font-weight: bold;
     margin: 0 10px;
@@ -201,11 +201,10 @@ h1, h2 {
     border-radius: 20px;
     background: #4a7fa7;
     transition: all 0.3s ease;
-   
+    pointer-events: none;
 }
 
 .contactos{
-
     color: #f6fafd;
     font-weight: bold;
     margin: 0 10px;
@@ -213,5 +212,5 @@ h1, h2 {
     border-radius: 20px;
     background: #4a7fa7;
     transition: all 0.3s ease;
-    
+    pointer-events: none;
 }
