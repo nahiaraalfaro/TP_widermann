@@ -70,7 +70,12 @@ h1, h2 {
     .links{
         opacity: 1;
     }
-    
+    .contactos{
+        pointer-events: all;
+    }
+    .principal{
+        pointer-events: all;
+    }
 }
 
 /*  Grid de productos  */
