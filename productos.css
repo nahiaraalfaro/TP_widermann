@@ -102,12 +102,11 @@ h1, h2 {
     width: 20%;
     height: 10%;
     position: absolute;
-    inset: 10%;
     background-color: #b3cfe5;
     place-content: left;
     gap:30px;
     padding: 20px;
-    margin: 14px 70% 0 70%;
+    margin: 13px -254px;
     display: grid;
     transition: opacity .5s linear;
     opacity: 0;
@@ -149,9 +148,7 @@ h1, h2 {
     display: none;
 }
 
-.info:has(.CartInput:checked){
-   
-}
+
 
 .banner {
     font-weight: bold;
@@ -181,7 +178,6 @@ h1, h2 {
     transition: transform 0.3s ease;
     display: flex;
     flex-direction: column;
-    
 }
 
 .producto img {
