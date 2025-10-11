@@ -76,3 +76,7 @@ nav ul li a:hover {
 .contenido article h2{
       text-align: center;
     }
+.contenido article p{
+      text-align: center;
+      font-size: 25px ;
+    }
