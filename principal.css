@@ -52,3 +52,6 @@ nav ul li a {
       border-radius: 60%;       
       overflow: hidden;        
     }
+nav ul li a:hover {
+      color: #0A1931;
+    }
