@@ -55,3 +55,13 @@ nav ul li a {
 nav ul li a:hover {
       color: #0A1931;
     }
+.contenido {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      gap: 20px;
+      align-items: center;
+      justify-items: center;
+      padding: 20px;
+      background-color: #1A3D63;
+    }
