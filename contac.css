@@ -52,6 +52,11 @@ header {
   background: #4a7fa7;
   transition: all 0.3s ease;
 }
+.menucategorias a:hover {
+  background: #f6fafd;
+  color: #4a7fa7;
+}
+
 
 .cajas i {
   font-size: 40px;
