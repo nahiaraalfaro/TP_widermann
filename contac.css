@@ -27,6 +27,13 @@ body {
 .cajas:hover {
   transform: translateY(-5px);
 }
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
 
 .cajas i {
   font-size: 40px;
