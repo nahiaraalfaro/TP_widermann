@@ -95,6 +95,14 @@ header {
   border-radius: 50%;
   object-fit: cover;
 }
+.cajas:hover .icono {
+  transform: rotate(10deg) scale(1.1);
+}
+.resaltar:hover {
+  background-color: #185adb;
+  box-shadow: 0 0 15px #00b4d8;
+  transition: background-color 0.4s, box-shadow 0.4s;
+}
 
 .cajas i {
   font-size: 40px;
