@@ -34,6 +34,14 @@ header {
   left: 0;
   z-index: 10;
 }
+header {
+  display: flex;
+  height: 70px;
+  background-color: #0A1931;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+}
 
 .cajas i {
   font-size: 40px;
