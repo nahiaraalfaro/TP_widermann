@@ -67,6 +67,17 @@ header {
   transition: all 0.3s ease;
   pointer-events: none;
 }
+.contactos{
+  color: #f6fafd;
+  font-weight: bold;
+  margin: 0 10px;
+  padding: 8px 15px;
+  border-radius: 20px;
+  background: #4a7fa7;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
 
 .cajas i {
   font-size: 40px;
