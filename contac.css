@@ -77,7 +77,24 @@ header {
   transition: all 0.3s ease;
   pointer-events: none;
 }
-
+.logo {
+  width: 20px;
+  height: 20px; 
+  color: #faf6fd;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin: 0px 10px;
+  padding: 0px 10px;
+  border-radius: 20px;
+  background: #4a7fa7;
+}
+.logo-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
 
 .cajas i {
   font-size: 40px;
