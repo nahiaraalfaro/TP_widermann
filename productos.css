@@ -147,7 +147,6 @@ h1, h2 {
     width: 80px;
     height: 80px;
     cursor: pointer;
-    
 }
 
 .CartInput{
@@ -171,6 +170,7 @@ h1, h2 {
 }
 
 .modal{
+    display: none;
     position: fixed;
     top: 20px;
     left: 50%;
@@ -181,9 +181,7 @@ h1, h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     font-weight: bold;
     z-index: 1000;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.5s ease, visibility 0.5s ease;
+    transition: display 0.5s ease;
 }
 
 .modal-ver{
