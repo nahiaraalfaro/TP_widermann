@@ -5,8 +5,8 @@
     <meta lang="es/ar">
     <title> Productos </title>
     <link href="imagenes/Logo Auryaf.jpeg" />
-
-    <link rel="stylesheet" href="productos.css">
+    <link rel="stylesheet" href="E:\TP_widermann - copia\productos.css">
+    
 </head>
 
 <body>
@@ -24,11 +24,19 @@
                     <a href= "#Accesorios"> Accesorios </a>  
                 </nav>
         </section>
+        
+        <nav class="carrito">
+            <label class="cart_label">
+                <input type="checkbox" id="logo_input" class="logo_input">
+                <img class="cart_logo" src="imagenes/logo-cart-blanco.png" alt="Logo de carrito">
+                <span class="contador">0</span>
+            </label>
+        </nav>
 
         <nav class="menu">
             <label class="label">
                 <input type="checkbox" id="menu_input" class="input">
-                <img class="menu_logo" src="imagenes/menu.png" alt="Logo de menu">
+                <img class="menu_logo" src="imagenes/menu_blanco.png" alt="Logo de menu">
             </label>
             <ul class="links">
                 <li class="menu_item">
@@ -43,6 +51,11 @@
     <section class="banner">
         <h2>¡BIENVENIDO A LA SECCION DE PRODUCTOS!</h2> 
     </section>
+
+    <div id="modal" class="modal">
+        ¡Producto agregado al carrito!
+    </div>
+
     <h2 id="Jeans"> Jeans </h2>
     <main class="productos">
 
@@ -52,10 +65,7 @@
             <h3 class="producto"> Jean Believe </h3>
             <nav class="info">
                 <p class="precio"> $55.000</p>
-                <label class="CartLabel">
-                        <input type="checkbox" class="CartInput">
-                        <strong> agregar al carrito </strong>
-                    </label>
+                <button class="btn-cart">agregar al carrito</button>
             </nav>
         </article>
 
@@ -316,7 +326,7 @@
                 </nav>
             </article>
         </main>
-
+        <script src="script.js"></script>
 </body>
 
 </html>
