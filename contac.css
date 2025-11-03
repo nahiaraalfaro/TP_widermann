@@ -1,4 +1,12 @@
-
+body {
+  font-family: Arial, sans-serif;
+  background: #1a3d63;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
 
 .contact-container {
   display: grid;
