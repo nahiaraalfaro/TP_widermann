@@ -125,3 +125,12 @@ header {
   font-size: 14px;
   color: #000000;
 }
+footer {
+  background-color: #0A1931;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-size: 1em;
+  border-top: 58px solid #1A3D63;
+  letter-spacing: 24px;
+}
