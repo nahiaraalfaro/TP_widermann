@@ -103,7 +103,10 @@ header {
   box-shadow: 0 0 15px #00b4d8;
   transition: background-color 0.4s, box-shadow 0.4s;
 }
-
+.menu {
+  display: flex;
+  align-items: center;
+}
 
 .cajas i {
   font-size: 40px;
