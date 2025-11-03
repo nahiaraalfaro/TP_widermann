@@ -8,7 +8,11 @@ body {
   margin: 0;
 }
 
-
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
 .cajas {
   background: #0a1931;
   padding: 20px;
